@@ -1,4 +1,5 @@
-import { readdir } from 'fs/promises'
+const { readdir } = require('fs/promises')
 
-const files = await readdir('./')
-console.info(files)
+readdir('./')
+.then((f) => console.info(f))
+.catch((e) => console.error(e))

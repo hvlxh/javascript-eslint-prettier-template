@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A advanced template with eslint + prettier",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",
