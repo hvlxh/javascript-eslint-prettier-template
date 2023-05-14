@@ -1,4 +1,4 @@
-import { readdir } from "fs/promises";
+import { readdir } from 'fs/promises'
 
-const files = await readdir("./");
-console.info(files);
+const files = await readdir('./')
+console.info(files)
