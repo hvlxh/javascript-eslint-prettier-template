@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "format:check": "prettier --check .",
-    "format:fix": "prettier --fix .",
+    "format:fix": "prettier --write .",
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
     "build": "npm run lint:check && npm run format:check",
